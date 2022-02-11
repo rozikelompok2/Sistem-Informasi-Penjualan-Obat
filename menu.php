@@ -18,7 +18,7 @@
 
                 <?php if(isset($_SESSION['level']) && $_SESSION['level']==1) { ?>
 
-                <li><a href="?page=transaksi&actions=tampil">Transaksi</a></li>
+                <li><a href="kasir/main.php">Transaksi</a></li>
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Master Data <span class="caret"></span></a>
